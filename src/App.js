@@ -10,7 +10,7 @@ function App() {
       <section className="menu">
         <img></img>
         <div className="menu-items">
-          <li></li>
+          <li>testing</li>
           <li></li>
           <li></li>
         </div>
