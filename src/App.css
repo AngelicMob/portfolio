@@ -1,37 +1,27 @@
 root {
-
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
 .App {
-
   overflow: hidden;
 }
 
 .page-wrapper {
-
   display: flex;
-
 }
 
 .menu {
-
   width: 15vw;
   height: 100vh;
   color: black;
   background-color: white;
-
-
 }
 
 .menu-items {
-
   list-style: none;
   color: black;
-
-
 }
 
 .content {
@@ -40,25 +30,20 @@ root {
   color: white;
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: teal;
+  background-color: rgb(24, 85, 85);
 }
 
-.test {
-
-  height: 2000px;
-  width: 100%;
-
+.intro-part {
+  text-align: center;
+  font-weight: light;
 }
 
+.projects {
+  height: 1000px;
+}
+
+.skills {
+  height: 1000px;
 
 
-
-
-
-
-
-
-
-
-
-
+}
