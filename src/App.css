@@ -2,50 +2,55 @@ root {
   margin: 0;
   padding: 0;
   overflow: hidden;
-
 }
 
 .App {
   overflow: hidden;
-  /* overflow-y: hidden; */
 
+  /* overflow-y: hidden; */
 }
 
 .intro-part p {
-
   font-weight: light;
 }
 
 .page-wrapper {
   display: flex;
   overflow: hidden;
-
 }
 
 .menu {
-  width: 15vw;
+  width: 20vw;
   height: 100vh;
   color: black;
-  background-color: white;
-
+  background-color: transparent;
+  /* background-color: white; */
 }
 
 .menu-items {
   list-style: none;
   color: black;
   margin: 10px;
-
 }
 
 .menu-items li {
   border-bottom: 1px solid grey;
-  padding: 21px
+  margin-right: auto;
+  padding: 21px 21px 21px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 19px;
+  /* display: flex;
+  justify-content: center; */
+}
 
-
+.menu-items li:hover {
+  border-left: 5px solid rgba(29, 27, 27, 0.568);
+  transition: 0.3s;
 }
 
 .content {
-  width: 85vw;
+  width: 80vw;
   height: 100vh;
   color: white;
   overflow-x: hidden;
@@ -56,12 +61,13 @@ root {
 .intro-part {
   text-align: center;
   font-weight: light;
-  padding-top: 160px;
-  height: 400px;
+  padding-top: 207px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 472px;
 }
 
 .projects {
-
   height: 1000px;
   text-align: center;
   background-color: black;
@@ -71,16 +77,43 @@ root {
   height: 1000px;
   text-align: center;
   background-color: grey;
-
 }
 .experiences {
   background-color: black;
-  height:800px;
+  height: 800px;
   text-align: center;
 }
 
+.profile {
+  height: 233px;
+  width: auto;
+}
 
+.contacts {
+  margin: 20px;
+}
+
+a {color: black}
+
+.contacts p {
+  font-weight: bold;
+  font-size: 19px;
+  margin-right: auto;
+}
+
+.media-icons {
+
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 600px) {
+
+
 }
