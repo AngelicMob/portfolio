@@ -2,14 +2,24 @@ root {
   margin: 0;
   padding: 0;
   overflow: hidden;
+
 }
 
 .App {
   overflow: hidden;
+  /* overflow-y: hidden; */
+
+}
+
+.intro-part p {
+
+  font-weight: light;
 }
 
 .page-wrapper {
   display: flex;
+  overflow: hidden;
+
 }
 
 .menu {
@@ -17,19 +27,29 @@ root {
   height: 100vh;
   color: black;
   background-color: white;
+
 }
 
 .menu-items {
   list-style: none;
   color: black;
+  margin: 10px;
+
+}
+
+.menu-items li {
+  border-bottom: 1px solid grey;
+  padding: 21px
+
+
 }
 
 .content {
   width: 85vw;
   height: 100vh;
   color: white;
-  overflow-y: scroll;
   overflow-x: hidden;
+  overflow-y: scroll;
   background-color: rgb(24, 85, 85);
 }
 
@@ -57,4 +77,10 @@ root {
   background-color: black;
   height:800px;
   text-align: center;
+}
+
+
+
+::-webkit-scrollbar {
+  display: none;
 }
