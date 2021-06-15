@@ -6,8 +6,7 @@ root {
 
 .App {
   overflow: hidden;
-
-  /* overflow-y: hidden; */
+  min-height: 100vh;
 }
 
 .intro-part p {
@@ -15,12 +14,13 @@ root {
 }
 
 .page-wrapper {
-  display: flex;
+  display: grid;
   overflow: hidden;
+  grid-template-columns: 5fr 1fr;
 }
 
 .menu {
-  width: 20vw;
+
   height: 100vh;
   color: black;
   background-color: transparent;
@@ -50,7 +50,6 @@ root {
 }
 
 .content {
-  width: 80vw;
   height: 100vh;
   color: white;
   overflow-x: hidden;
@@ -103,9 +102,10 @@ a {color: black}
 
 .media-icons {
 
-  display: flex;
+  display: grid;
   margin-left: auto;
   margin-right: auto;
+
 
 }
 

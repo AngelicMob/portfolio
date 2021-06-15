@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="page-wrapper">
+
         <section className="content">
           <div className="intro-part">
             <p>Hi! My name is <strong>Angelic Andersson</strong></p>
@@ -17,8 +18,9 @@ function App() {
           <section className="skills"></section>
           <section className="experiences"></section>
         </section>
+
         <section className="menu">
-          <img className="profile"></img>
+          <div className="profile">this is a picture</div>
           <div className="menu-items">
             <li>Projects</li>
             <li>Skills</li>
